@@ -69,7 +69,13 @@ export default function ImageLightbox({
         >
           ×
         </button>
-        <Image src={item.src} alt={item.alt} width={800} height={600} className="mx-auto h-auto max-h-[60vh] w-full object-contain" />
+        <Image
+          src={item.src}
+          alt={item.alt}
+          width={item.width ?? 800}
+          height={item.height ?? 600}
+          className="mx-auto h-auto max-h-[60vh] w-full object-contain"
+        />
         <h2 className="mt-3 text-xl font-semibold">{item.title}</h2>
         {item.notes ? <p className="mt-2 text-sm text-zinc-300">{item.notes}</p> : null}
         <div className="mt-4 flex justify-between gap-2">

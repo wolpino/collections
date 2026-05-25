@@ -27,8 +27,8 @@ export default function ImageGrid({ items, onSelect }: ImageGridProps) {
           <Image
             src={item.src}
             alt={item.alt}
-            width={400}
-            height={300}
+            width={item.width ?? 400}
+            height={item.height ?? 300}
             className="h-auto w-full object-cover transition group-hover:opacity-90"
           />
           <span className="block px-2 py-1 text-left text-sm font-medium">{item.title}</span>

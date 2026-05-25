@@ -15,14 +15,36 @@ Content lives in `content/*.json`; images go under `public/photographs/`, `publi
 
 ### Content schemas
 
-**Photographs & crafts** (`content/photographs.json`, `content/crafts.json`):
+**Photographs** (`content/photographs.json`) — grouped by folder under `public/photographs/`:
+
+```json
+[
+  {
+    "id": "idaho",
+    "title": "Idaho",
+    "items": [
+      {
+        "id": "idaho-img-20190608-191611-01",
+        "src": "/photographs/idaho/IMG_20190608_191611-01.jpeg",
+        "alt": "Idaho — IMG_20190608_191611-01",
+        "title": "IMG 20190608 191611 01",
+        "width": 3036,
+        "height": 4048,
+        "notes": "Optional lightbox notes"
+      }
+    ]
+  }
+]
+```
+
+**Crafts** (`content/crafts.json`):
 
 ```json
 {
   "id": "unique-id",
-  "src": "/photographs/file.svg",
+  "src": "/crafts/file.svg",
   "alt": "Accessibility description",
-  "title": "Optional caption",
+  "title": "Caption",
   "notes": "Optional lightbox notes"
 }
 ```
@@ -41,6 +63,20 @@ Content lives in `content/*.json`; images go under `public/photographs/`, `publi
 ```
 
 Omit `image` or `notes` when not needed.
+
+### Sync photographs from folders
+
+After adding images under `public/photographs/<folder>/`, regenerate the JSON:
+
+```bash
+npm run sync:photographs
+npm run sync:photographs -- --folder idaho
+npm run sync:photographs -- -f chicago -f idaho
+```
+
+Scans each subdirectory as a group, reads image dimensions (via macOS `sips` when available), and writes `content/photographs.json`. Existing `notes` and `title` values are kept for items with the same id.
+
+With `--folder` / `-f`, only those folders are rescanned; other groups already in the JSON are left unchanged.
 
 ## Testing
 

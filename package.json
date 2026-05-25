@@ -10,7 +10,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
-    "test:e2e": "PLAYWRIGHT_BROWSERS_PATH=0 playwright test"
+    "test:e2e": "PLAYWRIGHT_BROWSERS_PATH=0 playwright test",
+    "sync:photographs": "node scripts/sync-photographs.mjs"
   },
   "dependencies": {
     "next": "16.2.6",

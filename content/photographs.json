@@ -1,15 +1,230 @@
 [
   {
-    "id": "sunset",
-    "title": "Sunset",
-    "src": "/photographs/sunset.svg",
-    "alt": "Sunset over the hills",
-    "notes": "Golden hour on the ridge."
+    "id": "chicago",
+    "title": "Chicago",
+    "items": [
+      {
+        "id": "chicago-img-20190722-070923-01",
+        "title": "IMG 20190722 070923 01",
+        "src": "/photographs/chicago/IMG_20190722_070923-01.jpeg",
+        "alt": "Chicago — IMG_20190722_070923-01",
+        "width": 4048,
+        "height": 3036
+      },
+      {
+        "id": "chicago-img-20190722-071412-01",
+        "title": "IMG 20190722 071412 01",
+        "src": "/photographs/chicago/IMG_20190722_071412-01.jpeg",
+        "alt": "Chicago — IMG_20190722_071412-01",
+        "width": 4048,
+        "height": 3036
+      },
+      {
+        "id": "chicago-img-20190722-071603-01",
+        "title": "IMG 20190722 071603 01",
+        "src": "/photographs/chicago/IMG_20190722_071603-01.jpeg",
+        "alt": "Chicago — IMG_20190722_071603-01",
+        "width": 4048,
+        "height": 3036
+      },
+      {
+        "id": "chicago-img-20190722-071605-01",
+        "title": "IMG 20190722 071605 01",
+        "src": "/photographs/chicago/IMG_20190722_071605-01.jpeg",
+        "alt": "Chicago — IMG_20190722_071605-01",
+        "width": 4048,
+        "height": 3036
+      },
+      {
+        "id": "chicago-img-20190722-072119-01",
+        "title": "IMG 20190722 072119 01",
+        "src": "/photographs/chicago/IMG_20190722_072119-01.jpeg",
+        "alt": "Chicago — IMG_20190722_072119-01",
+        "width": 3579,
+        "height": 2682
+      },
+      {
+        "id": "chicago-img-20190722-083707-01",
+        "title": "IMG 20190722 083707 01",
+        "src": "/photographs/chicago/IMG_20190722_083707-01.jpeg",
+        "alt": "Chicago — IMG_20190722_083707-01",
+        "width": 3753,
+        "height": 2815
+      }
+    ]
   },
   {
-    "id": "harbor",
-    "title": "Harbor",
-    "src": "/photographs/harbor.svg",
-    "alt": "Boats in the harbor at dawn"
+    "id": "idaho",
+    "title": "Idaho",
+    "items": [
+      {
+        "id": "idaho-img-20190608-191611-01",
+        "title": "IMG 20190608 191611 01",
+        "src": "/photographs/idaho/IMG_20190608_191611-01.jpeg",
+        "alt": "Idaho — IMG_20190608_191611-01",
+        "width": 3036,
+        "height": 4048
+      },
+      {
+        "id": "idaho-img-20190609-100622-01-01",
+        "title": "IMG 20190609 100622 01 01",
+        "src": "/photographs/idaho/IMG_20190609_100622-01-01.jpeg",
+        "alt": "Idaho — IMG_20190609_100622-01-01",
+        "width": 4048,
+        "height": 3036
+      },
+      {
+        "id": "idaho-img-20190609-100627-01",
+        "title": "IMG 20190609 100627 01",
+        "src": "/photographs/idaho/IMG_20190609_100627-01.jpeg",
+        "alt": "Idaho — IMG_20190609_100627-01",
+        "width": 4048,
+        "height": 3036
+      },
+      {
+        "id": "idaho-img-20190609-102906-01",
+        "title": "IMG 20190609 102906 01",
+        "src": "/photographs/idaho/IMG_20190609_102906-01.jpeg",
+        "alt": "Idaho — IMG_20190609_102906-01",
+        "width": 4048,
+        "height": 3036
+      },
+      {
+        "id": "idaho-img-20190609-103012-01",
+        "title": "IMG 20190609 103012 01",
+        "src": "/photographs/idaho/IMG_20190609_103012-01.jpeg",
+        "alt": "Idaho — IMG_20190609_103012-01",
+        "width": 4048,
+        "height": 3036
+      },
+      {
+        "id": "idaho-img-20190609-234214-01",
+        "title": "IMG 20190609 234214 01",
+        "src": "/photographs/idaho/IMG_20190609_234214-01.jpeg",
+        "alt": "Idaho — IMG_20190609_234214-01",
+        "width": 4048,
+        "height": 3036
+      },
+      {
+        "id": "idaho-img-20190610-094723-01",
+        "title": "IMG 20190610 094723 01",
+        "src": "/photographs/idaho/IMG_20190610_094723-01.jpeg",
+        "alt": "Idaho — IMG_20190610_094723-01",
+        "width": 4048,
+        "height": 3036
+      },
+      {
+        "id": "idaho-img-20190610-094939-01",
+        "title": "IMG 20190610 094939 01",
+        "src": "/photographs/idaho/IMG_20190610_094939-01.jpeg",
+        "alt": "Idaho — IMG_20190610_094939-01",
+        "width": 3861,
+        "height": 2894
+      },
+      {
+        "id": "idaho-img-20190610-095717-01",
+        "title": "IMG 20190610 095717 01",
+        "src": "/photographs/idaho/IMG_20190610_095717-01.jpeg",
+        "alt": "Idaho — IMG_20190610_095717-01",
+        "width": 4048,
+        "height": 3036
+      },
+      {
+        "id": "idaho-img-20190610-095801-01",
+        "title": "IMG 20190610 095801 01",
+        "src": "/photographs/idaho/IMG_20190610_095801-01.jpeg",
+        "alt": "Idaho — IMG_20190610_095801-01",
+        "width": 3649,
+        "height": 2732
+      },
+      {
+        "id": "idaho-img-20190610-095852-01",
+        "title": "IMG 20190610 095852 01",
+        "src": "/photographs/idaho/IMG_20190610_095852-01.jpeg",
+        "alt": "Idaho — IMG_20190610_095852-01",
+        "width": 3716,
+        "height": 2786
+      },
+      {
+        "id": "idaho-img-20190610-100049-01-01",
+        "title": "IMG 20190610 100049 01 01",
+        "src": "/photographs/idaho/IMG_20190610_100049-01-01.jpeg",
+        "alt": "Idaho — IMG_20190610_100049-01-01",
+        "width": 3921,
+        "height": 2941
+      },
+      {
+        "id": "idaho-img-20190610-100256-01",
+        "title": "IMG 20190610 100256 01",
+        "src": "/photographs/idaho/IMG_20190610_100256-01.jpeg",
+        "alt": "Idaho — IMG_20190610_100256-01",
+        "width": 3591,
+        "height": 2703
+      },
+      {
+        "id": "idaho-img-20190610-112035-01",
+        "title": "IMG 20190610 112035 01",
+        "src": "/photographs/idaho/IMG_20190610_112035-01.jpeg",
+        "alt": "Idaho — IMG_20190610_112035-01",
+        "width": 4048,
+        "height": 3036
+      },
+      {
+        "id": "idaho-img-20190610-112045-01",
+        "title": "IMG 20190610 112045 01",
+        "src": "/photographs/idaho/IMG_20190610_112045-01.jpeg",
+        "alt": "Idaho — IMG_20190610_112045-01",
+        "width": 4048,
+        "height": 3036
+      },
+      {
+        "id": "idaho-img-20190610-112322-01",
+        "title": "IMG 20190610 112322 01",
+        "src": "/photographs/idaho/IMG_20190610_112322-01.jpeg",
+        "alt": "Idaho — IMG_20190610_112322-01",
+        "width": 4048,
+        "height": 3036
+      },
+      {
+        "id": "idaho-img-20190610-113828-01",
+        "title": "IMG 20190610 113828 01",
+        "src": "/photographs/idaho/IMG_20190610_113828-01.jpeg",
+        "alt": "Idaho — IMG_20190610_113828-01",
+        "width": 4048,
+        "height": 3036
+      },
+      {
+        "id": "idaho-img-20190610-114655-01",
+        "title": "IMG 20190610 114655 01",
+        "src": "/photographs/idaho/IMG_20190610_114655-01.jpeg",
+        "alt": "Idaho — IMG_20190610_114655-01",
+        "width": 4048,
+        "height": 3036
+      },
+      {
+        "id": "idaho-img-20190610-114806-01",
+        "title": "IMG 20190610 114806 01",
+        "src": "/photographs/idaho/IMG_20190610_114806-01.jpeg",
+        "alt": "Idaho — IMG_20190610_114806-01",
+        "width": 3135,
+        "height": 2354
+      },
+      {
+        "id": "idaho-img-20190610-114818-01",
+        "title": "IMG 20190610 114818 01",
+        "src": "/photographs/idaho/IMG_20190610_114818-01.jpeg",
+        "alt": "Idaho — IMG_20190610_114818-01",
+        "width": 4048,
+        "height": 3036
+      },
+      {
+        "id": "idaho-img-20190610-120457-01",
+        "title": "IMG 20190610 120457 01",
+        "src": "/photographs/idaho/IMG_20190610_120457-01.jpeg",
+        "alt": "Idaho — IMG_20190610_120457-01",
+        "width": 3903,
+        "height": 2927
+      }
+    ]
   }
 ]

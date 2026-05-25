@@ -26,7 +26,13 @@ export default function PhotoStack({ items, onSelect }: PhotoStackProps) {
             }}
             onClick={() => onSelect(index)}
           >
-            <Image src={item.src} alt={item.alt} width={400} height={300} className="h-auto w-full" />
+            <Image
+              src={item.src}
+              alt={item.alt}
+              width={item.width ?? 400}
+              height={item.height ?? 300}
+              className="h-auto w-full"
+            />
           </button>
         );
       })}
