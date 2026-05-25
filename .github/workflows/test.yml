@@ -1,0 +1,33 @@
+name: Test
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm run test:coverage
+      - run: npm run build
+
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: PLAYWRIGHT_BROWSERS_PATH=0 npx playwright install --with-deps chromium
+      - run: PLAYWRIGHT_BROWSERS_PATH=0 npm run test:e2e
+        env:
+          CI: true

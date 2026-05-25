@@ -1,0 +1,15 @@
+[
+  {
+    "id": "sunset",
+    "title": "Sunset",
+    "src": "/photographs/sunset.svg",
+    "alt": "Sunset over the hills",
+    "notes": "Golden hour on the ridge."
+  },
+  {
+    "id": "harbor",
+    "title": "Harbor",
+    "src": "/photographs/harbor.svg",
+    "alt": "Boats in the harbor at dawn"
+  }
+]
