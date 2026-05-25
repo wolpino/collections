@@ -30,6 +30,14 @@ export function getPhotographGroups(): PhotographGroup[] {
   return photographGroups;
 }
 
+export function getPhotographGroup(folderId: string): PhotographGroup | undefined {
+  return photographGroups.find((group) => group.id === folderId);
+}
+
+export function getPhotographFolderIds(): string[] {
+  return photographGroups.map((group) => group.id);
+}
+
 export function getCollectionItems(collectionId: CollectionId): CollectionItem[] {
   return collections[collectionId];
 }

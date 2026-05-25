@@ -78,6 +78,11 @@ Scans each subdirectory as a group, reads image dimensions (via macOS `sips` whe
 
 With `--folder` / `-f`, only those folders are rescanned; other groups already in the JSON are left unchanged.
 
+### Photograph routes
+
+- `/photographs` — grid of albums (cover image = first photo in each folder)
+- `/photographs/<folder>` — spread-out stack for that album (e.g. `/photographs/idaho`), click any print for the lightbox
+
 ## Testing
 
 Unit and component tests (Vitest + Testing Library):

@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { getCollectionItems, getPhotographGroups } from "./collections";
+import {
+  getCollectionItems,
+  getPhotographFolderIds,
+  getPhotographGroup,
+  getPhotographGroups,
+} from "./collections";
 
 describe("getPhotographGroups", () => {
   it("loads groups by directory", () => {
@@ -7,6 +12,24 @@ describe("getPhotographGroups", () => {
     expect(groups.map((g) => g.id)).toEqual(["chicago", "idaho"]);
     expect(groups.find((g) => g.id === "chicago")?.items).toHaveLength(6);
     expect(groups.find((g) => g.id === "idaho")?.items).toHaveLength(21);
+  });
+});
+
+describe("getPhotographGroup", () => {
+  it("returns a single folder group", () => {
+    const group = getPhotographGroup("idaho");
+    expect(group?.title).toBe("Idaho");
+    expect(group?.items.length).toBe(21);
+  });
+
+  it("returns undefined for unknown folder", () => {
+    expect(getPhotographGroup("missing")).toBeUndefined();
+  });
+});
+
+describe("getPhotographFolderIds", () => {
+  it("lists folder slugs for static params", () => {
+    expect(getPhotographFolderIds()).toEqual(["chicago", "idaho"]);
   });
 });
 
